@@ -1,8 +1,8 @@
 var exec = require('cordova/exec');
 
-var pluginName = 'MyCam';
+//var pluginName = 'MyCam';
 
-function MyCam() {}
+//function MyCam() {}
 
 // MyCam.prototype.transcodeVideo = function(success, error, options) {
 //   var self = this;
@@ -18,17 +18,17 @@ function MyCam() {}
 //   exec(win, error, pluginName, 'transcodeVideo', [options]);
 // };
 
-MyCam.prototype.coolMethod = function (arg0, success, error) {
+module.exports.coolMethod = function (arg0, success, error) {
     exec(success, error, 'arQiveCamera2', 'coolMethod', [arg0]);
 };
 
-MyCam.prototype.add = function(arg0, success, error) {
+module.exports.add = function(arg0, success, error) {
     exec(success, error, 'coolMethod', 'add', [arg0]);
 }
 
-MyCam.prototype.subtract = function(arg0, success, error) {
-    exec(success, error, 'coolMethod', 'subtract', [arg0]);
+module.exports.subtract = function(arg0, success, error) {
+    exec(success, error, 'coolMethod', 'add', [arg0]);
 }
 
 
-module.exports = new MyCam();
+//module.exports = new MyCam();
