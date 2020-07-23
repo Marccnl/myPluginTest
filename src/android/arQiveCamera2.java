@@ -1,4 +1,4 @@
-package rde.arQiveCamera2;
+package rde.arqivecamera2;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;

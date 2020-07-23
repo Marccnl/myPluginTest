@@ -9,7 +9,7 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="arQiveCamera2">
-                <param name="android-package" value="rde.arQiveCamera2" />
+                <param name="android-package" value="rde.arqivecamera2" />
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
