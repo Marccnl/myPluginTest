@@ -1,0 +1,14 @@
+{
+  "name": "cordova-plugin-arQiveCamera2",
+  "version": "0.1.1",
+  "description": "cordova camera plugin using camerapreview2",
+  "cordova": {
+    "id": "cordova-plugin-arQiveCamera2",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "RDE",
+  "license": "ISC"
+}
