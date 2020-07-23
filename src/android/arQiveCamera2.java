@@ -20,11 +20,11 @@ public class arQiveCamera2 extends CordovaPlugin {
             return true;
         }
         if (action.equals("add")) {
-            this.add(args.callbackContext);
+            this.add(args, callbackContext);
             return true;
         }
         if (action.equals("subttract")) {
-            this.add(args.callbackContext);
+            this.subtract(args, callbackContext);
             return true;
         }
         return false;
